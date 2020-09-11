@@ -1,9 +1,10 @@
 import React from 'react';
 
-function Header() {
+function Header(props) {
   return(
-    <header>
-      <h1>ReactJS</h1>
+    <header >
+      <h1>{props.titulo}</h1>
+      <p>{props.subtitulo}</p>
     </header>
   );
 }
