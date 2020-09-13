@@ -5,7 +5,7 @@ import Header from './components/Header';
 /** Três conseitos mais importante de React:
  * Componente
  * Propriedade
- * Estado
+ * Estado & imotabilidade
  * 
  * Se dominares esses três conseitos você 
  * consegue criar qualquer aplicação em React 

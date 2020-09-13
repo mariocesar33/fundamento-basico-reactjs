@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 
 function Header({titulo, subtitulo, children}) {
   return(
