@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { Children } from 'react';
 
-function Header(props) {
+function Header({titulo, subtitulo, children}) {
   return(
     <header >
-      <h1>{props.titulo}</h1>
-      <p>{props.subtitulo}</p>
+      <h1>{titulo}</h1>
+      <p>{subtitulo}</p>
+
+      {children}
     </header>
   );
 }
