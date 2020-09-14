@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from './components/Header';
+import ListProject from './components/ListProject';
 
 /** Três conseitos mais importante de React:
  * Componente
@@ -27,10 +28,13 @@ function App() {
           <li>Propriedade (props, children)</li>
           <li>Estado e imutabilidade</li>
         </ul>
-      </Header>
+      </Header >
+
+      <ListProject titulo="Meus Projetos" />
+
       <h2>vamos descobrir uma nova forma de programar!</h2>
     </>
-  );
+  ); 
 }
 
 export default App;
