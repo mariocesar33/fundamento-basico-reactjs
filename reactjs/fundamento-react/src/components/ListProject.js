@@ -14,7 +14,7 @@ function ListProject({ titulo }) {
     //projects.push(`Novo Projeto ${Date.now()}`);
 
     setProjects([...projects, `Novo Projeto ${Date.now()}`])
-    //console.log(projects);
+    // console.log(projects);
   }
   
   return(
