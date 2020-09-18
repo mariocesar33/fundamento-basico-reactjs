@@ -3,6 +3,9 @@ import React from 'react';
 import Header from './components/Header';
 import ListProject from './components/ListProject';
 
+import './styles/GlobalStyles.css';
+import background from './assets/background.jpg';
+
 /** Três conseitos mais importante de React:
  * Componente
  * Propriedade
@@ -15,13 +18,10 @@ import ListProject from './components/ListProject';
 function App() {
   return (
     <>
-      <Header titulo="Primeiro Título" subtitulo="Instação de softwares">
-        <ul>
-          <li>Node</li>
-          <li>vscode</li>
-          <li>Yarn</li>
-        </ul>
-      </Header>
+      <Header titulo="Primeiro Título" subtitulo="Instação de softwares" />
+
+      <img width={300} src={background} />
+ 
       <Header titulo="Segundo Título" subtitulo="Inicio ao reactjs">
         <ul>
           <li>Componente</li>
