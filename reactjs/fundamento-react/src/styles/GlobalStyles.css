@@ -10,3 +10,8 @@ body {
   font: 14px sans-serif;
   color: #333;
 }
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
